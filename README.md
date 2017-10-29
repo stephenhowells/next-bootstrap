@@ -1,4 +1,4 @@
-# ▲ Next.js Bootstrap ▲
+# ▲ Next.js Bootstrap
 
 > A quick scaffold to get a Next.js project started.
 
@@ -24,7 +24,7 @@ $ yarn add next react react-dom
 $ yarn run dev
 ```
 
-### Automate the Steps
+### Automate the Steps (Highly Recommended)
 
 You can also create a shell function to automate the quick start and save even more time. Simply copy the function below and place it somewhere that it will get loaded by ZSH.
 
@@ -44,4 +44,4 @@ With this function all that is required to start a new project is `$ nextjs proj
 
 ### License
 
-Licensed under the [MIT license](http://opensource.org/licenses/MIT)
+Licensed under the [MIT license](http://opensource.org/licenses/MIT).
