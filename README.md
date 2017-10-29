@@ -14,17 +14,17 @@ $ unzip master.zip
 # Name the project something useful
 $ mv next-bootstrap-master some-useful-name
 
-# Enter the project
+# Enter the project directory
 $ cd some-useful-name
 
-# Run the NPM install (I prefer yarn)
+# Add the Yarn packages
 $ yarn add next react react-dom
 
 # Start the dev server
 $ yarn run dev
 ```
 
-### Automate the steps
+### Automate the Steps
 
 You can also create a shell function to automate the quick start and save even more time. Simply copy the function below and place it somewhere that it will get loaded by ZSH.
 
@@ -40,7 +40,7 @@ nextjs() {
 }
 ```
 
-With this function all that is required to start a new project is `$ nextjs project-name`. You can see how I added this to my shell environment in my [dotfiles repository](https://github.com/stephenhowells/dotfiles/blob/master/functions/functions.zsh#L70).
+With this function all that is required to start a new project is `$ nextjs project-name`. You can see how I added this to my shell environment in my [dotfiles repository](https://github.com/stephenhowells/dotfiles/blob/master/functions/functions.zsh#L74).
 
 ### License
 
